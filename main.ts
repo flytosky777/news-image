@@ -1,10 +1,12 @@
-// news-image-20261123: one image summing up the world news of
-// Monday 23 November 2026.
+// news-image-20261123 v2: one image summing up the world news of
+// Monday 23 November 2026, this time illustrated.
 //
 // The image itself (entry.png, 1024x1024) is a front page drawn in this
-// session: six verified stories of the day, with the date in the masthead.
-// This program only copies those exact bytes to the output path, so two
-// runs always produce the same file, with no network and no randomness.
+// session by build_entry.py: a photo of the empty COP31 hall as the top
+// story, then five stories each with its own picture, all six verified
+// against reporting of the day, with the date in the masthead. This
+// program only copies those exact bytes to the output path, so two runs
+// always produce the same file, with no network and no randomness.
 //
 // Usage:
 //   MAKEFUN_OUTPUT_DIR=out node main.ts        # writes out/entry.png
